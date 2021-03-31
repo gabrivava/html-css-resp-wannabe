@@ -81,6 +81,9 @@ img {
     margin: 0;
     padding: 0;
   }
+  body {
+    font-size: 1rem;
+  }
   #lezioni,#why {
     background-color: #F2F2CD;
   }
@@ -104,6 +107,13 @@ img {
   }
   #why .row img {
     padding: 20px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    padding: 0.5rem;
   }
 }
 
@@ -132,7 +142,7 @@ img {
   }
   img {
     height: 70px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
   #lezioni,#why {
     background-color: #F2F2CD;
